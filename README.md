@@ -43,10 +43,10 @@ The package provides a ROS service that allows users to save trajectory data to 
 **To save trajectory data to a file, use the following command:**
 
 ```bash
-ros2 service call /trajectory_service_test anscer_interface/srv/TrajectoryPath "{file_name: 'name_of_your_file.csv', duration: duration_in_seconds}"
+ros2 service call /trajectory_service_test anscer_interface/srv/TrajectoryPath "{file_name: 'name_of_your_file.csv', duration: 10}"
 ```
 
-Replace 'name_of_your_file.csv' with the desired file name and duration_in_seconds with the duration for which you want to save the trajectory data.
+Replace 'name_of_your_file.csv' with the desired file name and 10 with the duration for which you want to save the trajectory data.
 Visualizing Trajectory
 
 **After saving the trajectory data, you can visualize it by running the trajectory reader node:**
