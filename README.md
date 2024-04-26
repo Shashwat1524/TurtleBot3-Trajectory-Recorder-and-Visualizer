@@ -5,7 +5,7 @@ This README provides instructions for setting up and using the TurtleBot3 Trajec
 **The recorded trajectory data is stored in CSV format with a specific filename and duration.**
 
 
-**Installation**
+## Installation
 
 Before using this package, ensure you have the necessary dependencies and packages installed. This package assumes you have already set up ROS2 and have a working installation of TurtleBot3.
 
@@ -18,7 +18,8 @@ cd ..
 colcon build
 ```
 
-**Usage**
+## Usage
+
 **Launching TurtleBot3 in Gazebo**
 
 To launch TurtleBot3 in Gazebo, run the following command:
