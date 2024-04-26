@@ -13,7 +13,7 @@ Before using this package, ensure you have the necessary dependencies and packag
 
 ```bash
 cd ~/your_ros2_workspace/src
-git clone https://github.com/Shashwat1524/TurtleBot3-Trajectory-Recorder-and-Visualizer.git
+git clone https://github.com/Shashwat1524/TurtleBot3-Trajectory-Recorder-and-Visualizer.git .
 cd ..
 colcon build
 ```
