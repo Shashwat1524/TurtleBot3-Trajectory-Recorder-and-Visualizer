@@ -9,10 +9,10 @@ Clone the repository into your ROS2 workspace and build it:
 
 bash
 
-cd ~/your_ros2_workspace/src
+```cd ~/your_ros2_workspace/src
 git clone https://github.com/your_username/my_robot_trajectory_publisher.git
 cd ..
-colcon build
+colcon build```
 
 Usage
 Launching TurtleBot3 in Gazebo
