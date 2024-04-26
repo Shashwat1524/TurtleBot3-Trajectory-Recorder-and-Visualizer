@@ -7,7 +7,6 @@ Before using this package, ensure you have the necessary dependencies and packag
 
 Clone the repository into your ROS2 workspace and build it:
 
-bash
 
 ```
 cd ~/your_ros2_workspace/src
@@ -21,17 +20,18 @@ Launching TurtleBot3 in Gazebo
 
 To launch TurtleBot3 in Gazebo, run the following command:
 
-bash
+```
 
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
 
 Recording Trajectory
 
 To record the trajectory of the TurtleBot3 robot, run the trajectory node:
 
-bash
-
+```
 ros2 run my_robot_trajectory_publisher trajectory_node
+```
 
 The trajectory node collects the path followed by the robot and publishes the trajectory data as a marker array.
 Saving Trajectory Data
@@ -40,18 +40,20 @@ The package provides a ROS service that allows users to save trajectory data to 
 
 To save trajectory data to a file, use the following command:
 
-bash
+```
 
 ros2 service call /trajectory_service_test anscer_interface/srv/TrajectoryPath "{file_name: 'name_of_your_file.csv', duration: duration_in_seconds}"
+```
 
 Replace 'name_of_your_file.csv' with the desired file name and duration_in_seconds with the duration for which you want to save the trajectory data.
 Visualizing Trajectory
 
 After saving the trajectory data, you can visualize it by running the trajectory reader node:
 
-bash
+```
 
 ros2 run my_robot_trajectory_publisher trajectory_reader_node --ros-args -p file_name:=name_of_your_file.csv
+```
 
 The trajectory reader node reads the saved trajectory file, transforms the trajectory data to the odom frame, and publishes it for visualization.
 Custom Service Interface
