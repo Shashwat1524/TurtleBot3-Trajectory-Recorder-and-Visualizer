@@ -10,7 +10,7 @@ Before using this package, ensure you have the necessary dependencies and packag
 
 ```
 cd ~/your_ros2_workspace/src
-git clone https://github.com/your_username/my_robot_trajectory_publisher.git](https://github.com/Shashwat1524/TurtleBot3-Trajectory-Recorder-and-Visualizer.git
+git clone https://github.com/Shashwat1524/TurtleBot3-Trajectory-Recorder-and-Visualizer.git
 cd ..
 colcon build
 ```
