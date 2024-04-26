@@ -36,10 +36,10 @@ To record the trajectory of the TurtleBot3 robot, run the trajectory node:
 ros2 run my_robot_trajectory_publisher trajectory_node
 ```
 
-The trajectory node collects the path followed by the robot and publishes the trajectory data as a marker array.
-Saving Trajectory Data
+The trajectory node collects the path followed by the robot and publishes the trajectory data as a marker array for real time visualisation.
 
-The package provides a ROS2 service that allows users to save trajectory data to a CSV file. Users can specify the duration for which they want to save the trajectory data.
+
+The package also provides a ROS2 service that allows users to save trajectory data to a CSV file. Users can specify the duration(in seconds) for which they want to save the trajectory data.
 
 **To save trajectory data to a file, use the following command:**
 
