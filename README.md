@@ -1,4 +1,4 @@
-#TurtleBot3 Trajectory Recorder and Visualizer
+# TurtleBot3 Trajectory Recorder and Visualizer
 
 This README provides instructions for setting up and using the TurtleBot3 Trajectory Recorder and Visualizer package. This package allows you to record the trajectory of a TurtleBot3 robot as it moves through its environment and visualize it in ROS2.
 Installation
