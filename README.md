@@ -62,6 +62,7 @@ The trajectory reader node reads the saved trajectory file, transforms the traje
 rviz2 rviz2
 ```
 Select the Marker Array option and subscribe to trajectory_reader topic.
+![Alt text](images/2.png)
 
 ## Custom Service Interface
 The custom service interface **anscer_interface** allows users to request trajectory data saving and provides a response indicating the success of the operation. The request includes the file name and duration, while the response indicates whether the trajectory data was saved successfully.
