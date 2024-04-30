@@ -28,6 +28,9 @@ To launch TurtleBot3 in Gazebo, run the following command:
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 
+<br>
+<img src="images/1.png" alt="Alt text" width="500">
+
 **Recording Trajectory**
 
 To record the trajectory of the TurtleBot3 robot, run the trajectory node:
