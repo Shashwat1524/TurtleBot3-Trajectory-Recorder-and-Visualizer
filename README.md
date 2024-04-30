@@ -58,5 +58,10 @@ ros2 run my_robot_trajectory_publisher trajectory_reader_node --ros-args -p file
 
 The trajectory reader node reads the saved trajectory file, transforms the trajectory data to the odom frame, and publishes it for visualization.
 
+```bash
+rviz2 rviz2
+```
+Select the Marker Array option and subscribe to trajectory_reader topic.
+
 ## Custom Service Interface
 The custom service interface **anscer_interface** allows users to request trajectory data saving and provides a response indicating the success of the operation. The request includes the file name and duration, while the response indicates whether the trajectory data was saved successfully.
