@@ -62,6 +62,7 @@ The trajectory reader node reads the saved trajectory file, transforms the traje
 rviz2 rviz2
 ```
 Select the Marker Array option and subscribe to trajectory_reader topic.
+<img src="images/2.png" alt="Alt text" width="300">
 ![Alt text](images/2.png)
 
 ## Custom Service Interface
